@@ -4,6 +4,8 @@ import 'package:problem/HomePage.dart';
 void main() {
   runApp(MaterialApp(
     home: MyApp(),
+    theme: ThemeData.dark(),
+    debugShowCheckedModeBanner: false,
   ));
 }
 
